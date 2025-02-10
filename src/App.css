@@ -13,7 +13,7 @@ body {
 .app-container {
   position: absolute;
   top: 15%;
-  left: 40%;
+  left: 35%;
 }
 
 .head {
@@ -30,13 +30,13 @@ body {
   letter-spacing: 1rem;
 }
 .inputia-container {
-  padding-top: 20rem;
-  padding-left: 40%;
+  padding-top: 22rem;
+  padding-left: 35%;
   /* background: hsl(235, 24%, 19%); */
   margin-top: 20vww;
 }
 input {
-  width: 26vw;
+  width: 30rem;
   /* height: 2rem; */
   font-size: 12px;
   background: hsl(235, 24%, 19%);
@@ -51,7 +51,7 @@ input {
   cursor: pointer;
 }
 .intputia {
-  width: 26vw;
+  width: 30rem;
   background: hsl(235, 24%, 19%);
   padding: 1.5rem;
   border-radius: 5px;
@@ -71,7 +71,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 26.7vw;
+  width: 30rem;
   /* background: #333554; */
   padding: 1rem;
   margin-left: -1.2vw;
@@ -150,9 +150,250 @@ input {
   cursor: pointer;
 }
 .left {
+  font-size: 12px;
   color: hsl(236, 9%, 61%);
 }
+@media screen and (max-width: 705px) {
+  .app-container {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+  }
 
+  .inputia-container {
+    padding-top: 22rem;
+    padding-left: 25%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+}
+@media screen and (max-width: 609px) {
+  .app-container {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+  }
+
+  .inputia-container {
+    padding-top: 22rem;
+    padding-left: 18%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+}
+@media screen and (max-width: 521px) {
+  .app-container {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+
+  .inputia-container {
+    padding-top: 22rem;
+    padding-left: 10%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+}
+@media screen and (max-width: 468px) {
+  .app-container {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+
+  .inputia-container {
+    padding-top: 22rem;
+    padding-left: 10%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 17rem;
+  }
+  input {
+    width: 27rem;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 2rem;
+  }
+  .intputia {
+    width: 27rem;
+    background: hsl(235, 24%, 19%);
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 27rem;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+}
+@media screen and (max-width: 425px) {
+  .app-container {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+
+  .inputia-container {
+    padding-top: 22rem;
+    padding-left: 10%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 15rem;
+  }
+  input {
+    width: 25rem;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 2rem;
+  }
+  .intputia {
+    width: 25rem;
+    background: hsl(235, 24%, 19%);
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.5vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer button {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .app-container {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+
+  .inputia-container {
+    padding-top: 23rem;
+    padding-left: 8%;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 15rem;
+  }
+  input {
+    width: 25rem;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 2rem;
+  }
+  .intputia {
+    width: 25rem;
+    background: hsl(235, 24%, 19%);
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.5vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer button {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 407px) {
+  .app-container {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+  }
+
+  .inputia-container {
+    padding-top: 22rem;
+    padding-left: 5%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 15rem;
+  }
+  input {
+    width: 25rem;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 2rem;
+  }
+  .intputia {
+    width: 25rem;
+    background: hsl(235, 24%, 19%);
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.5vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer button {
+    font-size: 8px;
+  }
+}
 @media screen and (max-width: 376px) {
   .bus-container {
     background-image: url(./images/bg-mobile-dark.jpg);
@@ -164,12 +405,12 @@ input {
     display: flex;
     align-items: center;
     font-weight: 700;
-    gap: 12rem;
+    gap: 35vw;
   }
   .app-container {
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 8%;
   }
   input {
     width: 70vw;
@@ -185,7 +426,7 @@ input {
   }
   .inputia-container {
     padding-top: 15rem;
-    padding-left: 8%;
+    padding-left: 5%;
     /* background: hsl(235, 24%, 19%); */
     margin-top: 20vww;
   }
@@ -229,6 +470,594 @@ input {
     position: absolute;
     margin-top: 12vw;
     margin-left: 8%;
+    background: hsl(235, 24%, 19%);
+    margin-left: 58%;
+    width: 79vw;
+    height: 4rem;
+    border-radius: 5px;
+  }
+  .todo-filters button {
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    color: hsl(236, 9%, 61%);
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Josefin Sans", serif;
+  }
+  .todo-text {
+    color: hsl(236, 33%, 92%);
+    margin-left: 10px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 4px;
+  }
+}
+@media screen and (max-width: 336px) {
+  .bus-container {
+    background-image: url(./images/bg-mobile-dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 35vw;
+  }
+  .app-container {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+  }
+  input {
+    width: 70vw;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 0.2rem;
+  }
+  .inputia-container {
+    padding-top: 15rem;
+    padding-left: 5%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .intputia {
+    width: 70vw;
+    background: hsl(235, 24%, 19%);
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .left {
+    font-size: 8px;
+    width: 15vw;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 69.7vw;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.2vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer {
+    padding-left: 8rem;
+    font-family: "Josefin Sans", serif;
+  }
+  .ceck {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    width: 4vw;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 8%;
+    background: hsl(235, 24%, 19%);
+    margin-left: 58%;
+    width: 79vw;
+    height: 4rem;
+    border-radius: 5px;
+  }
+  .todo-filters button {
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    color: hsl(236, 9%, 61%);
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Josefin Sans", serif;
+  }
+  .todo-text {
+    color: hsl(236, 33%, 92%);
+    margin-left: 10px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 4px;
+  }
+}
+@media screen and (max-width: 289px) {
+  .bus-container {
+    background-image: url(./images/bg-mobile-dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 30vw;
+  }
+  .app-container {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+  }
+  input {
+    width: 70vw;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 0.2rem;
+  }
+  .inputia-container {
+    padding-top: 15rem;
+    padding-left: 5%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .intputia {
+    width: 70vw;
+    background: hsl(235, 24%, 19%);
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .left {
+    font-size: 8px;
+    width: 15vw;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 69.7vw;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.2vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer {
+    padding-left: 6rem;
+    font-family: "Josefin Sans", serif;
+  }
+  .ceck {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    width: 4vw;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 8%;
+    background: hsl(235, 24%, 19%);
+    margin-left: 58%;
+    width: 79vw;
+    height: 4rem;
+    border-radius: 5px;
+  }
+  .todo-filters button {
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    color: hsl(236, 9%, 61%);
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Josefin Sans", serif;
+  }
+  .todo-text {
+    color: hsl(236, 33%, 92%);
+    margin-left: 10px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 4px;
+  }
+}
+@media screen and (max-width: 289px) {
+  .bus-container {
+    background-image: url(./images/bg-mobile-dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 27vw;
+  }
+  .app-container {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+  }
+  input {
+    width: 70vw;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 0.2rem;
+  }
+  .inputia-container {
+    padding-top: 15rem;
+    padding-left: 5%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .intputia {
+    width: 70vw;
+    background: hsl(235, 24%, 19%);
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .left {
+    font-size: 8px;
+    width: 15vw;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 69.7vw;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.2vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer {
+    padding-left: 3rem;
+    font-family: "Josefin Sans", serif;
+  }
+  .ceck {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    width: 4vw;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 8%;
+    background: hsl(235, 24%, 19%);
+    margin-left: 58%;
+    width: 79vw;
+    height: 4rem;
+    border-radius: 5px;
+  }
+  .todo-filters button {
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    color: hsl(236, 9%, 61%);
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Josefin Sans", serif;
+  }
+  .todo-text {
+    color: hsl(236, 33%, 92%);
+    margin-left: 10px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 4px;
+  }
+}
+@media screen and (max-width: 273px) {
+  .bus-container {
+    background-image: url(./images/bg-mobile-dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 27vw;
+  }
+  .app-container {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+  }
+  input {
+    width: 70vw;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 0.2rem;
+  }
+  .inputia-container {
+    padding-top: 15rem;
+    padding-left: 2%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .intputia {
+    width: 70vw;
+    background: hsl(235, 24%, 19%);
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .left {
+    font-size: 7px;
+    width: 15vw;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 69.7vw;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.2vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer {
+    padding-left: 3rem;
+    font-family: "Josefin Sans", serif;
+  }
+  .ceck {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    width: 4vw;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 7%;
+    background: hsl(235, 24%, 19%);
+    margin-left: 58%;
+    width: 79vw;
+    height: 4rem;
+    border-radius: 5px;
+  }
+  .todo-filters button {
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    color: hsl(236, 9%, 61%);
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Josefin Sans", serif;
+  }
+  .todo-text {
+    color: hsl(236, 33%, 92%);
+    margin-left: 10px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 4px;
+  }
+}
+@media screen and (max-width: 245px) {
+  .bus-container {
+    background-image: url(./images/bg-mobile-dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 23vw;
+  }
+  .app-container {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+  }
+  input {
+    width: 68vw;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 0.2rem;
+  }
+  .inputia-container {
+    padding-top: 15rem;
+    padding-left: 2%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .intputia {
+    width: 68vw;
+    background: hsl(235, 24%, 19%);
+    padding: 1.2rem;
+    border-radius: 5px;
+  }
+  .left {
+    font-size: 7px;
+    width: 15vw;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 69.7vw;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.2vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer {
+    padding-left: 3rem;
+    font-family: "Josefin Sans", serif;
+  }
+  .ceck {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    width: 4vw;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 7%;
+    background: hsl(235, 24%, 19%);
+    margin-left: 58%;
+    width: 79vw;
+    height: 4rem;
+    border-radius: 5px;
+  }
+  .todo-filters button {
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    color: hsl(236, 9%, 61%);
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Josefin Sans", serif;
+  }
+  .todo-text {
+    color: hsl(236, 33%, 92%);
+    margin-left: 10px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 4px;
+  }
+}
+@media screen and (max-width: 232px) {
+  .bus-container {
+    background-image: url(./images/bg-mobile-dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 18vw;
+  }
+  .app-container {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+  }
+  input {
+    width: 60vw;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 0.2rem;
+  }
+  .inputia-container {
+    padding-top: 15rem;
+    padding-left: 2%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .intputia {
+    width: 68vw;
+    background: hsl(235, 24%, 19%);
+    padding: 0.7rem;
+    border-radius: 5px;
+  }
+  .left {
+    font-size: 7px;
+    width: 15vw;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 69.7vw;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.2vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer {
+    padding-left: 3rem;
+    font-family: "Josefin Sans", serif;
+  }
+  .ceck {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    width: 4vw;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 7%;
     background: hsl(235, 24%, 19%);
     margin-left: 58%;
     width: 79vw;
