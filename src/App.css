@@ -372,7 +372,7 @@ input {
     margin-top: 2rem;
   }
   .intputia {
-    width: 25rem;
+    width: 79vw;
     background: hsl(235, 24%, 19%);
     padding: 1.5rem;
     border-radius: 5px;
@@ -598,7 +598,7 @@ input {
 @media screen and (max-width: 336px) {
   .bus-container {
     background-image: url(./images/bg-mobile-dark.jpg);
-    width: 100%;
+    /* width: 100%; */
     background-repeat: no-repeat;
     height: 100vh;
   }
@@ -606,7 +606,7 @@ input {
     display: flex;
     align-items: center;
     font-weight: 700;
-    gap: 35vw;
+    gap: 30vw;
   }
   .app-container {
     position: absolute;
@@ -652,7 +652,7 @@ input {
     border-bottom: 1px hsl(234, 11%, 52%) solid;
   }
   .todo-footer {
-    padding-left: 8rem;
+    /* padding-left: 8rem; */
     font-family: "Josefin Sans", serif;
   }
   .ceck {

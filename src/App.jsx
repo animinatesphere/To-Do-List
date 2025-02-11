@@ -53,13 +53,13 @@ function App() {
   return (
     <div
       className="bus-container"
-      style={{
-        backgroundImage: `url(${theme === "light" ? light : dark})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "co",
-        width: "100%",
-        height: "50vh",
-      }}
+      // style={{
+      //   backgroundImage: `url(${theme === "light" ? light : dark})`,
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundSize: "co",
+      //   width: "100%",
+      //   height: "50vh",
+      // }}
     >
       <div className={`app-container ${theme}`}>
         <div className="header">
