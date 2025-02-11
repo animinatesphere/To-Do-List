@@ -1,13 +1,22 @@
 import React, { useState } from "react";
 import "./App.css";
 import sun from "../src/images/icon-sun.svg";
+import moon from "../src/images/icon-moon.svg";
 import check from "../src/images/icon-check.svg";
 import cross from "../src/images/icon-cross.svg";
 import favi from "../src/images/circle-line.png";
+import light from "../src/images/bg-desktop-light.jpg";
+import dark from "../src/images/bg-desktop-dark.jpg";
+
+// import sun from "../src/images/icon-sun.svg";
+// import check from "../src/images/icon-check.svg";
+// import cross from "../src/images/icon-cross.svg";
+// import favi from "../src/images/circle-line.png";
 function App() {
   const [todos, setTodos] = useState([]);
   const [filter, setFilter] = useState("all");
   const [newTodo, setNewTodo] = useState("");
+  const [theme, setTheme] = useState("light");
 
   const handleAddTodo = (events) => {
     events.preventDefault();
@@ -32,6 +41,9 @@ function App() {
     setFilter(filterType);
   };
 
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  };
   const filteredTodos = todos.filter((todo) => {
     if (filter === "active") return !todo.completed;
     if (filter === "completed") return todo.completed;
@@ -39,13 +51,25 @@ function App() {
   });
 
   return (
-    <div className="bus-container">
-      <div className="app-container">
+    <div
+      className="bus-container"
+      style={{
+        backgroundImage: `url(${theme === "light" ? light : dark})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "co",
+        height: "50vh",
+      }}
+    >
+      <div className={`app-container ${theme}`}>
         <div className="header">
           <div className="head">
             <h1 className="title">TODO</h1>
-            <div className="moon">
+            {/* <div className="moon">
               <img src={sun} alt="" />
+            </div> */}
+
+            <div className="theme-toggle" onClick={toggleTheme}>
+              <img src={theme === "light" ? moon : sun} />
             </div>
           </div>
           <div className="todo-input-container">

@@ -4,12 +4,7 @@ body {
   background: hsl(235, 21%, 11%);
   font-family: "Josefin Sans", serif;
 }
-.bus-container {
-  background-image: url(./images/bg-desktop-dark.jpg);
-  width: 100%;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
+
 .app-container {
   position: absolute;
   top: 15%;
@@ -153,6 +148,8 @@ input {
   font-size: 12px;
   color: hsl(236, 9%, 61%);
 }
+/* Light Theme */
+
 @media screen and (max-width: 705px) {
   .app-container {
     position: absolute;
@@ -409,7 +406,7 @@ input {
   }
   .app-container {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 8%;
   }
   input {
@@ -422,16 +419,17 @@ input {
     border-radius: 5px;
     outline: none;
     color: hsl(234, 39%, 85%);
-    margin-top: 0.2rem;
+    margin-top: 1.4rem;
   }
   .inputia-container {
-    padding-top: 15rem;
-    padding-left: 5%;
+    padding-top: 23rem;
+    padding-left: 6%;
     /* background: hsl(235, 24%, 19%); */
     margin-top: 20vww;
   }
   .intputia {
     width: 70vw;
+    height: 2rem;
     background: hsl(235, 24%, 19%);
     padding: 1.5rem;
     border-radius: 5px;
@@ -440,19 +438,23 @@ input {
   .left {
     font-size: 10px;
     width: 15vw;
+    margin-top: -1rem;
+    margin-left: 1rem;
   }
   .todo-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 69.7vw;
+    width: 67.7vw;
     /* background: #333554; */
     padding: 1rem;
     margin-left: -1.2vw;
     border-bottom: 1px hsl(234, 11%, 52%) solid;
   }
   .todo-footer {
-    padding-left: 8rem;
+    margin-left: 8rem;
+    margin-top: -0.1rem;
+    font-size: 16px;
     font-family: "Josefin Sans", serif;
   }
   .ceck {
@@ -469,7 +471,8 @@ input {
     /* gap: 5rem; */
     position: absolute;
     margin-top: 12vw;
-    margin-left: 8%;
+    left: -15.7rem;
+
     background: hsl(235, 24%, 19%);
     margin-left: 58%;
     width: 79vw;
@@ -591,104 +594,7 @@ input {
     margin-top: 4px;
   }
 }
-@media screen and (max-width: 289px) {
-  .bus-container {
-    background-image: url(./images/bg-mobile-dark.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-  .head {
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    gap: 30vw;
-  }
-  .app-container {
-    position: absolute;
-    top: 10%;
-    left: 8%;
-  }
-  input {
-    width: 70vw;
-    /* height: 2rem; */
-    font-size: 12px;
-    background: hsl(235, 24%, 19%);
-    border: none;
-    padding: 1.5rem;
-    border-radius: 5px;
-    outline: none;
-    color: hsl(234, 39%, 85%);
-    margin-top: 0.2rem;
-  }
-  .inputia-container {
-    padding-top: 15rem;
-    padding-left: 5%;
-    /* background: hsl(235, 24%, 19%); */
-    margin-top: 20vww;
-  }
-  .intputia {
-    width: 70vw;
-    background: hsl(235, 24%, 19%);
-    padding: 1.5rem;
-    border-radius: 5px;
-  }
-  .left {
-    font-size: 8px;
-    width: 15vw;
-  }
-  .todo-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 69.7vw;
-    /* background: #333554; */
-    padding: 1rem;
-    margin-left: -1.2vw;
-    border-bottom: 1px hsl(234, 11%, 52%) solid;
-  }
-  .todo-footer {
-    padding-left: 6rem;
-    font-family: "Josefin Sans", serif;
-  }
-  .ceck {
-    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
-    width: 4vw;
-    border-radius: 100%;
-    cursor: pointer;
-  }
 
-  .mobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* gap: 5rem; */
-    position: absolute;
-    margin-top: 4rem;
-    margin-left: 8%;
-    background: hsl(235, 24%, 19%);
-    margin-left: 58%;
-    width: 79vw;
-    height: 4rem;
-    border-radius: 5px;
-  }
-  .todo-filters button {
-    padding: 5px 10px;
-    background: none;
-    border: none;
-    color: hsl(236, 9%, 61%);
-    cursor: pointer;
-    font-size: 12px;
-    font-family: "Josefin Sans", serif;
-  }
-  .todo-text {
-    color: hsl(236, 33%, 92%);
-    margin-left: 10px;
-    font-size: 16px;
-    position: absolute;
-    margin-top: 4px;
-  }
-}
 @media screen and (max-width: 289px) {
   .bus-container {
     background-image: url(./images/bg-mobile-dark.jpg);
