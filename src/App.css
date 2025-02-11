@@ -496,6 +496,105 @@ input {
     margin-top: 4px;
   }
 }
+@media screen and (max-width: 343px) {
+  .bus-container {
+    background-image: url(./images/bg-mobile-dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 35vw;
+  }
+  .app-container {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+  }
+  input {
+    width: 70vw;
+    /* height: 2rem; */
+    font-size: 12px;
+    background: hsl(235, 24%, 19%);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-top: 1rem;
+  }
+  .inputia-container {
+    padding-top: 23rem;
+    padding-left: 5%;
+    /* background: hsl(235, 24%, 19%); */
+    margin-top: 20vww;
+  }
+  .intputia {
+    width: 70vw;
+    /* background: hsl(235, 24%, 19%); */
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .left {
+    font-size: 10px;
+    width: 15vw;
+  }
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 69.7vw;
+    /* background: #333554; */
+    padding: 1rem;
+    margin-left: -1.2vw;
+    border-bottom: 1px hsl(234, 11%, 52%) solid;
+  }
+  .todo-footer {
+    font-size: 1px;
+    /* padding-left: 8rem; */
+    font-family: "Josefin Sans", serif;
+  }
+  .ceck {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    width: 4vw;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+    position: absolute;
+    margin-top: 4rem;
+    left: -50%;
+    background: hsl(235, 24%, 19%);
+    margin-left: 58%;
+    width: 79vw;
+    height: 4rem;
+    border-radius: 5px;
+  }
+  .todo-filters button {
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    color: hsl(236, 9%, 61%);
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Josefin Sans", serif;
+  }
+  .todo-text {
+    color: hsl(236, 33%, 92%);
+    margin-left: 10px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 4px;
+  }
+}
 @media screen and (max-width: 336px) {
   .bus-container {
     background-image: url(./images/bg-mobile-dark.jpg);
