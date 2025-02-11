@@ -57,6 +57,7 @@ function App() {
         backgroundImage: `url(${theme === "light" ? light : dark})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "co",
+        width: "100%",
         height: "50vh",
       }}
     >
