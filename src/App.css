@@ -610,11 +610,11 @@ input {
   }
   .app-container {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 8%;
   }
   input {
-    width: 70vw;
+    width: 77vw;
     /* height: 2rem; */
     font-size: 12px;
     background: hsl(235, 24%, 19%);
@@ -626,13 +626,13 @@ input {
     margin-top: 0.2rem;
   }
   .inputia-container {
-    padding-top: 15rem;
-    padding-left: 5%;
+    padding-top: 23rem;
+    padding-left: 4%;
     /* background: hsl(235, 24%, 19%); */
-    margin-top: 20vww;
+    /* margin-top: 20vw; */
   }
   .intputia {
-    width: 70vw;
+    width: 77vw;
     background: hsl(235, 24%, 19%);
     padding: 1.5rem;
     border-radius: 5px;
@@ -645,14 +645,14 @@ input {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 69.7vw;
+    width: 70.7vw;
     /* background: #333554; */
     padding: 1rem;
-    margin-left: -1.2vw;
+    margin-left: -1vw;
     border-bottom: 1px hsl(234, 11%, 52%) solid;
   }
   .todo-footer {
-    /* padding-left: 8rem; */
+    padding-left: 3rem;
     font-family: "Josefin Sans", serif;
   }
   .ceck {
@@ -672,7 +672,7 @@ input {
     margin-left: 8%;
     background: hsl(235, 24%, 19%);
     margin-left: 58%;
-    width: 79vw;
+    width: 80vw;
     height: 4rem;
     border-radius: 5px;
   }
